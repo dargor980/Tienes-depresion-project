@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "DosisBold";
+    src: url("../fonts/Dosis-Bold.ttf");
+}
+
+@font-face {
+    font-family: "DosisExtraBold";
+    src: url("../fonts/Dosis-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "DosisExtraLight";
+    src: url("../fonts/Dosis-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: "DosisLight";
+    src: url("../fonts/Dosis-Light.ttf");
+}
+
+@font-face {
+    font-family: "DosisMediu";
+    src: url("../fonts/Dosis-Medium.ttf");
+}
+
+@font-face {
+    font-family: "DosisRegular";
+    src: url("../fonts/Dosis-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "DosisSemiBold";
+    src: url("../fonts/Dosis-SemiBold.ttf");
+}
+
+.bold{
+    font-family: "DosisBold";
+}
+
+
+body{
+    background-image: url('../img/Inicio-07.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo{
+    height: 200px;
+    width: 190px;
+}
+
+.navbar-center{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+#banner{
+    width:990px;
+    height:420px;
+}
+
+button.navbar-nav::hover{
+    background-color: #81a536;
+}
+@media (min-width:991px){
+    .auto{
+        display: none;
+    }
+}
+
+
+
