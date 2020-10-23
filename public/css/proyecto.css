@@ -40,7 +40,7 @@
 
 
 body{
-    background-image: url('../img/Inicio-07.png');
+    background-image: url('../img/proyecto/Proyecto-05.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -66,13 +66,17 @@ body{
     width:240px; 
     height:46px; 
     border-radius:15px; 
-    background-color: #455819
+    background-color: #372e4a;
 }
 
 .boton:hover{
-    background-color: #81a356;
+    background-color: #74689e;
 }
 
+#imagen-galeria{
+    width: 340px;
+    height: 260px;;
+}
 
 
 @media (min-width:991px){
@@ -80,8 +84,6 @@ body{
         display: none;
     }
 }
-
-
 
 
 
