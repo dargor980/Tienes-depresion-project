@@ -45,8 +45,8 @@
 
 body{
     background-image: url('../img/Inicio-07.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: contain
 }
 
 #logo{
@@ -79,15 +79,63 @@ body{
 
 #depresin{ 
     width: 125px;
-    height: 165px;
+    height: 160px;
 }
 
 #mesatrabajo{
     background-image: url('../img/Sintítulo-1_Mesadetrabajo1.png');
-    background-size: 395px 280px;
+    background-size: 380px 260px;
     background-repeat: no-repeat;
     
     
+}
+
+#mujer{
+    width: 140px;
+    height: 170px;
+}
+
+#charlas-talleres{
+    background-image: url('../img/Sin-título-1-02.png');
+    background-size: 360px 260px;
+    background-repeat: no-repeat;
+
+}
+
+#consulta-psicologica{
+    background-image: url('../img/sin-título-1-03.png');
+    background-repeat: no-repeat;
+    background-size: 390px 280px;
+    
+}
+
+#bolsa-papel{
+    width: 125px;
+    height: 160px;
+}
+
+#mujer-donacion{
+    width: 140px;
+    height: 140px;
+}
+
+#donaciones{
+    background-image: url('../img/sin-título-1-03.png');
+    background-repeat: no-repeat;
+    background-size: 390px 280px;
+}
+
+#red-social
+{
+    background-image: url('../img/sin-título-1-03.png');
+    background-repeat: no-repeat;
+    background-size: 390px 280px;
+
+}
+
+#img-red-social{
+    width: 330px;
+    height: 180px;
 }
 
 @media (min-width:991px){

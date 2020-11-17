@@ -38,10 +38,10 @@
                     <a href="" class="nav-link text-white bold" style="font-size: 18pt">Test</a>       
                 </li>
                 <li class="nav-item mx-2 text-center boton">
-                    <a href="" class="nav-link text-white bold" style="font-size: 18pt">Galería</a>             
+                    <a href="{{route('galeria')}}" class="nav-link text-white bold" style="font-size: 18pt">Galería</a>             
                 </li>
                 <li class="nav-item mx-2 text-center boton">
-                    <a href="" class="nav-link text-white bold" style="font-size: 18pt">Contacto</a>      
+                    <a href="{{route('contacto')}}" class="nav-link text-white bold" style="font-size: 18pt">Contacto</a>      
                 </li>
             </ul>
         </div> 
@@ -59,17 +59,113 @@
 
     <div class="container my-5">
         <div class="row my-5">
-            <div class="col-md-6">lala</div>
-            <div class="col-md-6"></div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="/img/proyecto/Sin-título-2-05.png" alt="depresin" id="depresin-proyecto">
+                    </div>
+                    <div class="col-md-8" id="dialogo-depresin-proyecto">
+                        <div class="container ml-2 mt-2 mb-0">
+                            <p class="bold text-center mb-0" style="font-size:20pt"> ¡Hola!</p>
+                            <p class="regular ml-2" style="font-size: 10pt">Soy Depresin, un estudiante de <br> Enseñanza Media como tu, tal vez a diferencia tuya, tengo Depresión. <br>
+                                En este lugar me dedicaré a explicarte a ti y a otros jóvenes más lo que es la Depresión y qué hacer contra ella.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 ">
+                <div class="row ml-0">
+                    <div class="col-md-4 ">
+                        <img src="/img/proyecto/Sin-título-2-06.png" alt="depresin-2" id="depresin-proyecto">
+                    </div>
+                    <div class="col-md-8 " id="fundacion-salud-mental">
+                        <div class="container">
+                            <p class="bold text-center mb-0 mt-3" style="font-size: 20pt;">Fundación Salud Mental Chile</p>
+                            <p class="regular ml-3" style="font-size: 10pt;">
+                                Aquí también podrás encontrar ayuda de La Fundación
+                                Salud Mental Chile, ya sea para ti o ayudar a un ser
+                                querido.
+                                La Fundación ayuda por medio de la ArteTerapia, las cuales
+                                son actividades más artísticas para una terapia.
+                                Ellos nos ayudarán a entender qué es la Depresión, sus
+                                causas y cómo combatirlas para prevenirlas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
         </div>
 
-        <div class="row my-3">
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <img src="/img/proyecto/Sin-título-2-10.png" alt="mujer" id="mujer1">
+            </div>
+            <div class="col-md-6" id="tienes-depresion">
+                <div class="container">
+                    <p class="bold text-center mb-0 mt-3" style="font-size: 20pt;">¿Tienes Depresión?</p>
+                    <p class="regular ml-3">
+                        Descubre que cada decisión que tomes tiene una gran importancia para tu
+                        propio futuro, el más mínimo detalle puede llevarte a un gran final o un
+                        horrible desastre.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 text-center">
+                <img src="/img/proyecto/Sin-título-2-09.png" alt="mujer" id="mujer2">
+            </div>
+        </div>
 
+        <div class="row my-5">
+            <div class="col-md-4">
+                <img src="/img/proyecto/Sin-título-2-11.png" alt="juego1" id="captura-juego">
+            </div>
+            <div class="col-md-4">
+                <img src="/img/proyecto/Sin-título-2-12.png" alt="juego2" id="captura-juego">
+            </div>
+            <div class="col-md-4">
+                <img src="/img/proyecto/Sin-título-2-13.png" alt="juego3" id="captura-juego">
+            </div>
+        </div>
+
+        <div class="row my-5">
+            <div class="col-md-3 text-center">
+                <img src="/img/proyecto/Sin-título-2-07.png" alt="mujer" id="mujer3">
+            </div>
+            <div class="col-md-6" id="charlas-y-talleres">
+                <div class="container">
+                    <p class="bold text-center mb-0 mt-3" style="font-size: 20pt;">Charlas y Talleres</p>
+                    <p class="regular ml-3">
+                        Hola, soy una de los muchos compañeros de Depresin.
+                        La Fundación suele hacer charlas y conversatorios donde explican muchos
+                        temas sobre la Depresión, además de responder las dudas que puedan
+                        tener al momento.
+                        La Fundación también hace talleres para poder aplicar lo que se habla en
+                        sus charlas y conversatorios, y poder experimentar otras clases de
+                        actividades a las comunes.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 text-center">
+                <img src="/img/proyecto/Sin-título-2-08.png" alt="mujer4" id="mujer4">
+            </div>
         </div>
         <div class="row my-3">
             <div class="col-md-4"><img src="/img/proyecto/imagen1.jpg" alt="" id="imagen-galeria"></div>
             <div class="col-md-4"><img src="/img/proyecto/imagen2.jpg" alt="" id="imagen-galeria"></div>
             <div class="col-md-4"><img src="/img/proyecto/imagen3.jpg" alt="" id="imagen-galeria"></div>
+        </div>
+
+        <div class="row my-5">
+            <div class="col-md-3"></div>
+            <div class="col-md-3"></div>
+            <div class="col-md-3"></div>
+            <div class="col-md-3">
+                <img src="/img/proyecto/Proyecto-11.png" alt="proyecto" id="imagen-proyecto">
+            </div>
         </div>
     </div>
 
