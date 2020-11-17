@@ -61,7 +61,20 @@
     <div class="container">
         <div class="row my-3">
             <div class="col-md-6">
-                <img src="/img/Inicio-02.png" alt="" style="width:415px; heigth:180px">
+                <div class="row">
+                    <div class="col-md-4"><img src="/img/Sintítulo-1-06.png" alt="" id="depresin"></div>
+                    <div class="col-md-8" id="mesatrabajo">
+                        <div class="container ml-4 mt-3 mb-0">
+                            <p class="bold text-center my-3" style="font-size:27pt"> ¡Hola, soy Depresin!</p>
+                            <p class="regular my-0 ml-2" style="font-size: 12pt">¡Hola!</p>
+                            <p class="regular ml-2" style="font-size: 12pt">Soy Depresin, un estudiante de <br> Enseñanza Media como tu, tal vez a diferencia tuya, tengo Depresión. <br>
+                                En este lugar me dedicaré a explicarte a ti y a otros jóvenes más lo que es la Depresión y qué hacer contra ella
+                            </p>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-md-6">
                 <img src="/img/Inicio-03.png" alt="" style="width:570px; heigth:190px">

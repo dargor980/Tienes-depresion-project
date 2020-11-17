@@ -19,7 +19,7 @@
 }
 
 @font-face {
-    font-family: "DosisMediu";
+    font-family: "DosisMedium";
     src: url("../fonts/Dosis-Medium.ttf");
 }
 
@@ -36,6 +36,10 @@
 
 .bold{
     font-family: "DosisBold";
+}
+
+.regular{
+    font-family: "DosisRegular";
 }
 
 
@@ -73,7 +77,18 @@ body{
     background-color: #81a356;
 }
 
+#depresin{ 
+    width: 125px;
+    height: 165px;
+}
 
+#mesatrabajo{
+    background-image: url('../img/Sintítulo-1_Mesadetrabajo1.png');
+    background-size: 395px 280px;
+    background-repeat: no-repeat;
+    
+    
+}
 
 @media (min-width:991px){
     .auto{
