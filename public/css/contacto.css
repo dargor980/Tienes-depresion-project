@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "DosisBold";
+    src: url("../fonts/Dosis-Bold.ttf");
+}
+
+@font-face {
+    font-family: "DosisExtraBold";
+    src: url("../fonts/Dosis-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "DosisExtraLight";
+    src: url("../fonts/Dosis-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: "DosisLight";
+    src: url("../fonts/Dosis-Light.ttf");
+}
+
+@font-face {
+    font-family: "DosisMedium";
+    src: url("../fonts/Dosis-Medium.ttf");
+}
+
+@font-face {
+    font-family: "DosisRegular";
+    src: url("../fonts/Dosis-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "DosisSemiBold";
+    src: url("../fonts/Dosis-SemiBold.ttf");
+}
+
+.bold{
+    font-family: "DosisBold";
+}
+
+.regular{
+    font-family: "DosisRegular";
+}
+
+
+body{
+    background-image: url('../img/Inicio-07.png');
+    background-repeat: repeat;
+    background-size: contain
+}
+
+#logo{
+    height: 200px;
+    width: 190px;
+}
+
+.navbar-center{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+#banner{
+    width:990px;
+    height:420px;
+}
+
+
+.boton{
+    width:240px; 
+    height:46px; 
+    border-radius:15px; 
+    background-color: #5B2A0C
+}
+
+.boton:hover{
+    background-color: #A95B2A;
+}
+
+.botoncito{
+    width:240px; 
+    height:46px; 
+    border-radius:15px; 
+    background-color: #5B2A0C
+}
+
+#mujer1{
+    width: 190px;
+    height: 160px;
+}
+
+#mujer2{
+    width: 160px;
+    height: 160px;
+}
+
+#direccion{
+    background-image: url('../img/contacto/contacto-03.png');
+    background-repeat: no-repeat;
+    background-size: 270px 135px;
+}
+
+#mensaje{
+    background-image: url('../img/contacto/contacto-04.png');
+    background-repeat: no-repeat;
+    background-size: 840px 135px;
+}
+
+#imagen-proyecto{
+    width: 240px;
+    height: 190px;
+}
+
+@media (min-width:991px){
+    .auto{
+        display: none;
+    }
+}
+

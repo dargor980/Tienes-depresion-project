@@ -138,6 +138,13 @@ body{
     height: 180px;
 }
 
+.botoncito{
+    width:240px; 
+    height:46px; 
+    border-radius:15px; 
+    background-color: #455819
+}
+
 @media (min-width:991px){
     .auto{
         display: none;
