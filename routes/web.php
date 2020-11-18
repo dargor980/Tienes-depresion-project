@@ -23,3 +23,5 @@ Route::get('/proyecto','PagesController@proyecto')->name('proyecto');
 Route::get('/galeria','PagesController@galeria')->name('galeria');
 
 Route::get('/contacto','PagesController@contacto')->name('contacto');
+
+Route::get('/test','PagesController@test')->name('test');

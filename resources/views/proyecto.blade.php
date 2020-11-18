@@ -35,7 +35,7 @@
                     
                 </li>
                 <li class="nav-item mx-2 text-center boton">
-                    <a href="" class="nav-link text-white bold" style="font-size: 18pt">Test</a>       
+                    <a href="{{route('test')}}" class="nav-link text-white bold" style="font-size: 18pt">Test</a>       
                 </li>
                 <li class="nav-item mx-2 text-center boton">
                     <a href="{{route('galeria')}}" class="nav-link text-white bold" style="font-size: 18pt">Galería</a>             

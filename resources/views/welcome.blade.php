@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{asset('css/styles.css')}}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Inicio</title>
 </head>
 <body> 
     <header class="align-self-center my-5">
@@ -34,7 +34,7 @@
                     
                 </li>
                 <li class="nav-item mx-2 text-center boton">
-                    <a href="" class="nav-link text-white bold" style="font-size: 18pt">Test</a>       
+                    <a href="{{route('test')}}" class="nav-link text-white bold" style="font-size: 18pt">Test</a>       
                 </li>
                 <li class="nav-item mx-2 text-center boton">
                     <a href="{{route('galeria')}}" class="nav-link text-white bold" style="font-size: 18pt">Galería</a>             
