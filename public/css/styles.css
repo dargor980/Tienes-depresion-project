@@ -44,7 +44,7 @@
 
 
 body{
-    background-image: url('../img/Inicio-07.png');
+    background-image: url('../img/fondos/Fondo-web_Mesa-de-trabajo-1.png');
     background-repeat: repeat;
     background-size: contain
 }
@@ -143,6 +143,22 @@ body{
     height:46px; 
     border-radius:15px; 
     background-color: #455819
+}
+
+#donacionImagen{
+    width: 380px;
+    height: 255px;
+}
+
+#donacionBolsa{
+    width: 125px;
+    height: 160px;
+}
+
+#datosDonacion{
+    background-image: url('../img/Sin-título-1-08.png');
+    background-repeat: no-repeat;
+    background-size: 500px 270px;
 }
 
 @media (min-width:991px){

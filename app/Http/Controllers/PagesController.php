@@ -25,4 +25,8 @@ class PagesController extends Controller
     public function contacto(){
         return view('contact');
     }
+
+    public function donaciones(){
+        return view('donacion');
+    }
 }

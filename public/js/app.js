@@ -2248,6 +2248,45 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -2338,11 +2377,11 @@ __webpack_require__.r(__webpack_exports__);
         });
         Swal.showLoading();
         this.ronda4 = false;
-        this.puntaje = parseInt(this.respuesta1) + parseInt(this.respuesta2) + parseInt(this.respuesta3);
+        this.puntaje = parseInt(this.puntaje) + parseInt(this.respuesta1) + parseInt(this.respuesta2) + parseInt(this.respuesta3);
         this.respuesta1 = '';
         this.respuesta2 = '';
         this.respuesta3 = '';
-        this.fini;
+        this["final"] = true;
         return;
       } else {
         Swal.fire({
@@ -23516,6 +23555,7 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta1",
+                                id: "1",
                                 value: "0"
                               },
                               domProps: {
@@ -23550,6 +23590,7 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta1",
+                                id: "2",
                                 value: "0"
                               },
                               domProps: {
@@ -23584,6 +23625,7 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta1",
+                                id: "3",
                                 value: "1"
                               },
                               domProps: {
@@ -23618,6 +23660,7 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta1",
+                                id: "4",
                                 value: "1"
                               },
                               domProps: {
@@ -25581,6 +25624,107 @@ var render = function() {
       : _vm._e(),
     _vm._v(" "),
     _vm.final
+      ? _c("div", { staticClass: "row my-5" }, [
+          _c("div", { staticClass: "col-md-2" }),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "col-md-8 text-center",
+              attrs: { id: "box-resultado" }
+            },
+            [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-3 mt-2" }, [
+                  _c(
+                    "p",
+                    {
+                      staticClass: "bold mb-0",
+                      staticStyle: { "font-size": "20pt" }
+                    },
+                    [_vm._v("Resultado")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "p",
+                    {
+                      staticClass: "bold mt-2",
+                      staticStyle: { "font-size": "40pt" }
+                    },
+                    [_vm._v(_vm._s(_vm.puntaje))]
+                  )
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "col-md-9", attrs: { id: "diagnostico" } },
+                  [
+                    _c("div", { staticClass: "container mb-3" }, [
+                      _c(
+                        "p",
+                        {
+                          staticClass: "bold mb-0 mt-2",
+                          staticStyle: { "font-size": "20pt" }
+                        },
+                        [_vm._v("Diagnóstico")]
+                      ),
+                      _vm._v(" "),
+                      _vm.puntaje >= 0 && _vm.puntaje <= 4
+                        ? _c(
+                            "p",
+                            {
+                              staticClass: "regular",
+                              staticStyle: { "font-size": "12pt" }
+                            },
+                            [
+                              _vm._v(
+                                "\n                            Obtuviste un resultado entre el 00 y 04, lo que significa que, aunque tengas unos\n                            pequeños síntomas de depresión leve, pero aun así, recuerda que esto es un test rápido,\n                            y si tienes dudas puedes comunicarte con un especialista de la Salud Mental.\n                        "
+                              )
+                            ]
+                          )
+                        : _vm._e(),
+                      _vm._v(" "),
+                      _vm.puntaje >= 5 && _vm.puntaje <= 8
+                        ? _c(
+                            "p",
+                            {
+                              staticClass: "regular",
+                              staticStyle: { "font-size": "12pt" }
+                            },
+                            [
+                              _vm._v(
+                                "\n                            Obtuviste un resultado entre el 05 y 08, lo que significa que puedes tener algunos síntomas\n                            de una depresión leve, aún así, recuerda que esto es un test rápido y que lo mejor es que \n                            te comuniques con un especialista de la Salud Mental.\n                        "
+                              )
+                            ]
+                          )
+                        : _vm._e(),
+                      _vm._v(" "),
+                      _vm.puntaje >= 9 && _vm.puntaje <= 12
+                        ? _c(
+                            "p",
+                            {
+                              staticClass: "regular",
+                              staticStyle: { "font-size": "12pt" }
+                            },
+                            [
+                              _vm._v(
+                                "\n                            Obtuviste un resultado entre 09 y 12, esto significa que puedes estar teniendo varios síntomas de\n                            una depresión y puede ser una grave, aun así, recuerda que esto es un test rápido y que lo mejor es\n                            que te comuniques con un especialista de la Salud Mental.\n                        "
+                              )
+                            ]
+                          )
+                        : _vm._e()
+                    ])
+                  ]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-2" })
+        ])
+      : _vm._e(),
+    _vm._v(" "),
+    _vm.final
       ? _c("div", { staticClass: "row" }, [
           _c("div", { staticClass: "col-md-4" }),
           _vm._v(" "),
@@ -25790,7 +25934,7 @@ var staticRenderFns = [
       "div",
       { staticClass: "col-md-6", attrs: { id: "presentacion-cuestionario" } },
       [
-        _c("div", { staticClass: "container my-2" }, [
+        _c("div", { staticClass: "container my-4" }, [
           _c(
             "p",
             {
@@ -25815,7 +25959,7 @@ var staticRenderFns = [
               _c(
                 "p",
                 {
-                  staticClass: "regular",
+                  staticClass: "regular mb-5",
                   staticStyle: { "font-size": "12pt" }
                 },
                 [

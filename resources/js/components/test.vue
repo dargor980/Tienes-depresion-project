@@ -50,10 +50,10 @@
                             <div class="col-md-9" id="pregunta1">
                                 <div class="container ml-2 my-2">
                                     <p class="regular text-center" style="font-size:12pt">1- ¿Recientemente, te has podido  concentrar en lo que haces?</p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">a- Mejor que de costumbre <input type="radio" name="respuesta1" value="0" v-model="respuesta1"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- Igual que de costumbre <input type="radio" name="respuesta1" value="0" v-model="respuesta1"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Menos que de costumbre <input type="radio" name="respuesta1" value="1" v-model="respuesta1"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho Menos que de costumbre <input type="radio" name="respuesta1" value="1" v-model="respuesta1"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">a- Mejor que de costumbre <input type="radio" name="respuesta1" id="1" value="0" v-model="respuesta1"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- Igual que de costumbre <input type="radio" name="respuesta1" id="2" value="0" v-model="respuesta1"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Menos que de costumbre <input type="radio" name="respuesta1"  id="3" value="1" v-model="respuesta1"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho Menos que de costumbre <input type="radio" name="respuesta1"  id="4" value="1" v-model="respuesta1"></p>
                                 </div>
                             </div>
                         </div>
@@ -306,14 +306,14 @@
          <div class="row justify-content-center my-5" v-if="final">
           
             <div class="col-md-6" id="presentacion-cuestionario">
-                <div class="container my-2">
+                <div class="container my-4">
                     <p class="bold text-center" style="font-size:20pt;">Cuestionario de Salud de Goldberg</p>
                     <div class="row">
                         <div class="col-md-3">
                             <img src="/img/test/Test-03.png" alt="" id="bolsa-cuestionario-inicio">
                         </div>
                         <div class="col-md-9">
-                            <p class="regular" style="font-size:12pt">
+                            <p class="regular mb-5" style="font-size:12pt">
                                 Sume el puntaje de las 12 preguntas:
                                 Si la suma llegar a ser igual o mayor a 5, puede
                                 llegar a ser necesaria la consulta con un
@@ -323,6 +323,45 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="row my-5" v-if="final">
+            <div class="col-md-2">
+            </div>
+
+            <div class="col-md-8 text-center" id="box-resultado">
+                <div class="row">
+                    <div class="col-md-3 mt-2">
+                        
+                            <p class="bold mb-0" style="font-size:20pt;">Resultado</p>
+                            <p class="bold mt-2" style="font-size:40pt;">{{puntaje}}</p>
+                        
+                    </div>
+                    <div class="col-md-9" id="diagnostico">
+                        <div class="container mb-3">
+                            <p class="bold mb-0 mt-2" style="font-size:20pt;">Diagnóstico</p>
+                            <p class="regular" style="font-size:12pt" v-if="puntaje>=0 && puntaje <=4">
+                                Obtuviste un resultado entre el 00 y 04, lo que significa que, aunque tengas unos
+                                pequeños síntomas de depresión leve, pero aun así, recuerda que esto es un test rápido,
+                                y si tienes dudas puedes comunicarte con un especialista de la Salud Mental.
+                            </p>
+                             <p class="regular" style="font-size:12pt" v-if="puntaje>=5 && puntaje <=8">
+                                Obtuviste un resultado entre el 05 y 08, lo que significa que puedes tener algunos síntomas
+                                de una depresión leve, aún así, recuerda que esto es un test rápido y que lo mejor es que 
+                                te comuniques con un especialista de la Salud Mental.
+                            </p>
+                            <p class="regular" style="font-size:12pt" v-if="puntaje>=9 && puntaje <=12">
+                                Obtuviste un resultado entre 09 y 12, esto significa que puedes estar teniendo varios síntomas de
+                                una depresión y puede ser una grave, aun así, recuerda que esto es un test rápido y que lo mejor es
+                                que te comuniques con un especialista de la Salud Mental.
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2"></div>
         </div>
         <div class="row" v-if="final">
             <div class="col-md-4"></div>
@@ -453,11 +492,11 @@ export default {
                 Swal.showLoading();
 
                this.ronda4=false; 
-               this.puntaje= parseInt(this.respuesta1)+parseInt(this.respuesta2)+parseInt(this.respuesta3);
+               this.puntaje= parseInt(this.puntaje)+ parseInt(this.respuesta1)+parseInt(this.respuesta2)+parseInt(this.respuesta3);
                this.respuesta1='';
                this.respuesta2='';
                this.respuesta3='';
-               this.fini
+               this.final=true;
                return;
            }
            else{

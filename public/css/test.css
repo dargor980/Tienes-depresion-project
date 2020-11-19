@@ -44,7 +44,7 @@
 
 
 body{
-    background-image: url('../img/test/fondo.png');
+    background-image: url('../img/fondos/Fondo-web-03.png');
     background-repeat: repeat;
     background-size: contain
 }
@@ -107,6 +107,18 @@ body{
     height: 120px;
 }
 
+#box-resultado{
+    background-image: url('../img/test/Test-22.png');
+    background-repeat: no-repeat;
+    background-size: 170px 150px;
+}
+
+#diagnostico{
+    background-image: url('../img/test/test-24.png');
+    background-repeat: no-repeat;
+    background-size: 560px 150px;
+}
+
 
 #pregunta1{
     background-image: url('../img/test/test-04.png');
@@ -119,49 +131,10 @@ body{
     height: 100px;
 }
 
-#pregunta2{
-    
-}
 
-#pregunta3{
-    
-}
 
-#pregunta4{
-    
-}
 
-#pregunta5{
-    
-}
 
-#pregunta6{
-    
-}
-
-#pregunta7{
-    
-}
-
-#pregunta8{
-    
-}
-
-#pregunta9{
-    
-}
-
-#pregunta10{
-    
-}
-
-#pregunta11{
-    
-}
-
-#pregunta12{
-    
-}
 
 @media (min-width:991px){
     .auto{

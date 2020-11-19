@@ -121,7 +121,7 @@
                     <div class="col-md-8">
                         <p class="regular">Si quieres ayudarnos de alguna manera, aceptamos donaciones.</p>
                         <div class="text-center my-5">
-                            <a href=""><button class="btn btn-success text-white bold" style="width: 120px; heigth:50px">Dona</button></a>
+                            <a href="{{route('donaciones')}}"><button class="btn btn-success text-white bold" style="width: 120px; heigth:50px">Dona</button></a>
                         </div>
                     </div>
                 </div>
