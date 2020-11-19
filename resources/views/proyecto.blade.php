@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-4 text-center">
-                <img src="/img/Inicio_mesa_de_trabajo.png" alt="" id="logo">
+                <img src="img/Inicio_mesa_de_trabajo.png" alt="" id="logo">
             </div>
             <div class="col-md-4"></div>
         </div>
@@ -62,7 +62,7 @@
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="/img/proyecto/Sin-título-2-05.png" alt="depresin" id="depresin-proyecto">
+                        <img src="img/proyecto/Sin-título-2-05.png" alt="depresin" id="depresin-proyecto">
                     </div>
                     <div class="col-md-8" id="dialogo-depresin-proyecto">
                         <div class="container ml-2 mt-2 mb-0">
@@ -78,7 +78,7 @@
             <div class="col-md-6 ">
                 <div class="row ml-0">
                     <div class="col-md-4 ">
-                        <img src="/img/proyecto/Sin-título-2-06.png" alt="depresin-2" id="depresin-proyecto">
+                        <img src="img/proyecto/Sin-título-2-06.png" alt="depresin-2" id="depresin-proyecto">
                     </div>
                     <div class="col-md-8 " id="fundacion-salud-mental">
                         <div class="container">
@@ -102,7 +102,7 @@
 
         <div class="row">
             <div class="col-md-3 text-center">
-                <img src="/img/proyecto/Sin-título-2-10.png" alt="mujer" id="mujer1">
+                <img src="img/proyecto/Sin-título-2-10.png" alt="mujer" id="mujer1">
             </div>
             <div class="col-md-6" id="tienes-depresion">
                 <div class="container">
@@ -115,25 +115,25 @@
                 </div>
             </div>
             <div class="col-md-3 text-center">
-                <img src="/img/proyecto/Sin-título-2-09.png" alt="mujer" id="mujer2">
+                <img src="img/proyecto/Sin-título-2-09.png" alt="mujer" id="mujer2">
             </div>
         </div>
 
         <div class="row my-5">
             <div class="col-md-4">
-                <img src="/img/proyecto/Sin-título-2-11.png" alt="juego1" id="captura-juego">
+                <img src="img/proyecto/Sin-título-2-11.png" alt="juego1" id="captura-juego">
             </div>
             <div class="col-md-4">
-                <img src="/img/proyecto/Sin-título-2-12.png" alt="juego2" id="captura-juego">
+                <img src="img/proyecto/Sin-título-2-12.png" alt="juego2" id="captura-juego">
             </div>
             <div class="col-md-4">
-                <img src="/img/proyecto/Sin-título-2-13.png" alt="juego3" id="captura-juego">
+                <img src="img/proyecto/Sin-título-2-13.png" alt="juego3" id="captura-juego">
             </div>
         </div>
 
         <div class="row my-5">
             <div class="col-md-3 text-center">
-                <img src="/img/proyecto/Sin-título-2-07.png" alt="mujer" id="mujer3">
+                <img src="img/proyecto/Sin-título-2-07.png" alt="mujer" id="mujer3">
             </div>
             <div class="col-md-6" id="charlas-y-talleres">
                 <div class="container">
@@ -150,13 +150,13 @@
                 </div>
             </div>
             <div class="col-md-3 text-center">
-                <img src="/img/proyecto/Sin-título-2-08.png" alt="mujer4" id="mujer4">
+                <img src="img/proyecto/Sin-título-2-08.png" alt="mujer4" id="mujer4">
             </div>
         </div>
         <div class="row my-3">
-            <div class="col-md-4"><img src="/img/proyecto/imagen1.jpg" alt="" id="imagen-galeria"></div>
-            <div class="col-md-4"><img src="/img/proyecto/imagen2.jpg" alt="" id="imagen-galeria"></div>
-            <div class="col-md-4"><img src="/img/proyecto/imagen3.jpg" alt="" id="imagen-galeria"></div>
+            <div class="col-md-4"><img src="img/proyecto/imagen1.jpg" alt="" id="imagen-galeria"></div>
+            <div class="col-md-4"><img src="img/proyecto/imagen2.jpg" alt="" id="imagen-galeria"></div>
+            <div class="col-md-4"><img src="img/proyecto/imagen3.jpg" alt="" id="imagen-galeria"></div>
         </div>
 
         <div class="row my-5">
@@ -164,7 +164,7 @@
             <div class="col-md-3"></div>
             <div class="col-md-3"></div>
             <div class="col-md-3">
-                <img src="/img/proyecto/Proyecto-11.png" alt="proyecto" id="imagen-proyecto">
+                <img src="img/proyecto/Proyecto-11.png" alt="proyecto" id="imagen-proyecto">
             </div>
         </div>
     </div>

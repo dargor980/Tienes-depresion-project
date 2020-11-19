@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-4 text-center">
-                <img src="/img/Inicio_mesa_de_trabajo.png" alt="" id="logo">
+                <img src="img/Inicio_mesa_de_trabajo.png" alt="" id="logo">
             </div>
             <div class="col-md-4"></div>
         </div>
@@ -71,34 +71,34 @@
         </div>
         <div class="container ml-5">
             <div class="fotorama ml-5" data-nav="thumbs" data-width="800" data-height="600" data-transition="dissolve" data-allowfullscreen="true" data-autoplay="true" data-loop="true" data-swipe="true">
-                <img src="/img/galeria/1.jpg">
-                <img src="/img/galeria/2.jpg">
-                <img src="/img/galeria/3.jpg">
-                <img src="/img/galeria/4.jpg">
-                <img src="/img/galeria/5.jpg">
-                <img src="/img/galeria/6.jpg">
-                <img src="/img/galeria/7.jpg">
-                <img src="/img/galeria/9.jpg">
-                <img src="/img/galeria/10.jpg">
-                <img src="/img/galeria/11.jpg">
-                <img src="/img/galeria/12.jpg">
-                <img src="/img/galeria/13.jpg">
-                <img src="/img/galeria/14.jpg">
-                <img src="/img/galeria/15.jpg">
-                <img src="/img/galeria/16.jpg">
-                <img src="/img/galeria/17.jpg">
-                <img src="/img/galeria/18.jpg">
-                <img src="/img/galeria/19.jpg">
-                <img src="/img/galeria/20.jpg">
-                <img src="/img/galeria/21.jpg">
-                <img src="/img/galeria/22.jpg">
-                <img src="/img/galeria/23.jpg">
-                <img src="/img/galeria/24.jpg">
-                <img src="/img/galeria/25.jpg">
-                <img src="/img/galeria/26.jpg">
-                <img src="/img/galeria/27.jpg">
-                <img src="/img/galeria/28.jpg">
-                <img src="/img/galeria/29.jpg">
+                <img src="img/galeria/1.jpg">
+                <img src="img/galeria/2.jpg">
+                <img src="img/galeria/3.jpg">
+                <img src="img/galeria/4.jpg">
+                <img src="img/galeria/5.jpg">
+                <img src="img/galeria/6.jpg">
+                <img src="img/galeria/7.jpg">
+                <img src="img/galeria/9.jpg">
+                <img src="img/galeria/10.jpg">
+                <img src="img/galeria/11.jpg">
+                <img src="img/galeria/12.jpg">
+                <img src="img/galeria/13.jpg">
+                <img src="img/galeria/14.jpg">
+                <img src="img/galeria/15.jpg">
+                <img src="img/galeria/16.jpg">
+                <img src="img/galeria/17.jpg">
+                <img src="img/galeria/18.jpg">
+                <img src="img/galeria/19.jpg">
+                <img src="img/galeria/20.jpg">
+                <img src="img/galeria/21.jpg">
+                <img src="img/galeria/22.jpg">
+                <img src="img/galeria/23.jpg">
+                <img src="img/galeria/24.jpg">
+                <img src="img/galeria/25.jpg">
+                <img src="img/galeria/26.jpg">
+                <img src="img/galeria/27.jpg">
+                <img src="img/galeria/28.jpg">
+                <img src="img/galeria/29.jpg">
             </div>
         </div>
     </div>
@@ -108,7 +108,7 @@
         <div class="col-md-3"></div>
         <div class="col-md-3"></div>
         <div class="col-md-3">
-            <img src="/img/proyecto/Proyecto-11.png" alt="proyecto" id="imagen-proyecto">
+            <img src="img/proyecto/Proyecto-11.png" alt="proyecto" id="imagen-proyecto">
         </div>
     </div>
 

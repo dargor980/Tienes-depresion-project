@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-4 text-center">
-                <img src="/img/Inicio_mesa_de_trabajo.png" alt="" id="logo">
+                <img src="img/Inicio_mesa_de_trabajo.png" alt="" id="logo">
             </div>
             <div class="col-md-4"></div>
         </div>
@@ -72,7 +72,7 @@
                 <div class="row">
 
                     <div class="col-md-5">
-                        <img src="/img/contacto/contacto_Mesa-de-trabajo-1.png" alt="mujer1" id="mujer1">
+                        <img src="img/contacto/contacto_Mesa-de-trabajo-1.png" alt="mujer1" id="mujer1">
                     </div>
                     <div class="col-md-7" id="direccion">
                         <div class="container ml-2">
@@ -121,7 +121,7 @@
                     <div class="row">
     
                         <div class="col-md-5">
-                            <img src="/img/contacto/contacto-02.png" alt="mujer1" id="mujer2">
+                            <img src="img/contacto/contacto-02.png" alt="mujer1" id="mujer2">
                         </div>
                         <div class="col-md-7" id="direccion">
                             <div class="container ml-1">
@@ -169,7 +169,7 @@
         <div class="col-md-3"></div>
         <div class="col-md-3"></div>
         <div class="col-md-3">
-            <img src="/img/proyecto/Proyecto-11.png" alt="proyecto" id="imagen-proyecto">
+            <img src="img/proyecto/Proyecto-11.png" alt="proyecto" id="imagen-proyecto">
         </div>
     </div>
 

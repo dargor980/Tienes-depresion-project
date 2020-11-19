@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-4 text-center">
-                <img src="/img/Inicio_mesa_de_trabajo.png" alt="" id="logo">
+                <img src="img/Inicio_mesa_de_trabajo.png" alt="" id="logo">
             </div>
             <div class="col-md-4"></div>
         </div>
@@ -56,13 +56,13 @@
         </div>
     </nav>
     <div class="container text-center my-5">
-        <img src="/img/Inicio-13.png" alt="" style="" id="banner">
+        <img src="img/Inicio-13.png" alt="" style="" id="banner">
     </div>
     <div class="container">
         <div class="row my-3">
             <div class="col-md-6">
                 <div class="row">
-                    <div class="col-md-3 px-0"><img src="/img/Sintítulo-1-06.png" alt="" id="depresin"></div>
+                    <div class="col-md-3 px-0"><img src="img/Sintítulo-1-06.png" alt="" id="depresin"></div>
                     <div class="col-md-8 " id="mesatrabajo">
                         <div class="container ml-4 mt-3 mb-0">
                             <p class="bold text-center my-3 mb-5" style="font-size:27pt"> ¡Hola, soy Depresin!</p>
@@ -79,7 +79,7 @@
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-4 px-0">
-                        <img src="/img/Sin-título-1-10.png" alt="mujer" id="mujer">
+                        <img src="img/Sin-título-1-10.png" alt="mujer" id="mujer">
                     </div>
                     <div class="col-md-8 ml-0" id="charlas-talleres">
                         <div class="container mb-0 ml-1 mt-3">
@@ -101,7 +101,7 @@
                 <p class="bold text-center my-3" style="font-size: 27pt;">Consulta Psicológica</p>
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="/img/Sin-título-1-07.png" alt="bolsa" id="bolsa-papel">
+                        <img src="img/Sin-título-1-07.png" alt="bolsa" id="bolsa-papel">
                     </div>
                     <div class="col-md-8">
                         <p class="regular">Agenda tu consulta con nosotros, responderemos todas tus dudas.</p>
@@ -116,7 +116,7 @@
                 <p class="bold text-center my-3" style="font-size: 27pt;">Donaciones</p>
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="/img/Sin-título-1-09.png" alt="mujer-donacion" id="mujer-donacion">
+                        <img src="img/Sin-título-1-09.png" alt="mujer-donacion" id="mujer-donacion">
                     </div>
                     <div class="col-md-8">
                         <p class="regular">Si quieres ayudarnos de alguna manera, aceptamos donaciones.</p>
@@ -129,7 +129,7 @@
 
             <div class="col-md-4" id="red-social">
                 <p class="regular text-center my-3">Fundación Salud Mental Chile</p>
-                <a href="https://www.facebook.com/fundacionsaludmentalchile" class="pl-3"><img src="/img/Sin-título-1-05.png" alt="red social" id="img-red-social"></a>
+                <a href="https://www.facebook.com/fundacionsaludmentalchile" class="pl-3"><img src="img/Sin-título-1-05.png" alt="red social" id="img-red-social"></a>
             </div>
 
             

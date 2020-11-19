@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-4 text-center">
-                <img src="/img/Inicio_mesa_de_trabajo.png" alt="" id="logo">
+                <img src="img/Inicio_mesa_de_trabajo.png" alt="" id="logo">
             </div>
             <div class="col-md-4"></div>
         </div>
@@ -59,12 +59,12 @@
     <div class="container">
         <div class="row my-5">
             <div class="col-md-5">
-                <img src="/img/donacion-de-dinero.jpg" alt="donacion de dinero" id="donacionImagen">
+                <img src="img/donacion-de-dinero.jpg" alt="donacion de dinero" id="donacionImagen">
             </div>
             <div class="col-md-7">
                 <div class="row">
                     <div class="col-md-3">
-                        <img src="/img/Sintítulo-1-06.png" alt="bolsa de papel" id="donacionBolsa">
+                        <img src="img/Sintítulo-1-06.png" alt="bolsa de papel" id="donacionBolsa">
                     </div>
                     <div class="col-md-9" id="datosDonacion">
                         <div class="container my-4 ml-3">

@@ -10,7 +10,7 @@
                     <p class="bold text-center" style="font-size:20pt;">Cuestionario de Salud de Goldberg</p>
                     <div class="row">
                         <div class="col-md-3">
-                            <img src="/img/test/Test-03.png" alt="" id="bolsa-cuestionario-inicio">
+                            <img src="img/test/Test-03.png" alt="" id="bolsa-cuestionario-inicio">
                         </div>
                         <div class="col-md-9">
                             <p class="regular" style="font-size:12pt">
@@ -32,7 +32,7 @@
                 <button type="submit" class="btn" @click="initTest"><p class="boton text-white bold" style="font-size: 18pt;">Iniciar Test</p></button>
             </div>
             <div class="col-md-4 text-right">
-                <img src="/img/test/fundacion.png" alt="logo fundacion" id="logo-fundacion" >
+                <img src="img/test/fundacion.png" alt="logo fundacion" id="logo-fundacion" >
             </div>
         </div>
 
@@ -45,7 +45,7 @@
                     <div class="col-md-4">
                         <div class="row">
                             <div class="col-md-3">
-                                <img src="/img/test/Test-07.png" alt="mujer" id="mujer1">
+                                <img src="img/test/Test-07.png" alt="mujer" id="mujer1">
                             </div>
                             <div class="col-md-9" id="pregunta1">
                                 <div class="container ml-2 my-2">
@@ -61,7 +61,7 @@
                     <div class="col-md-4">
                         <div class="row">
                             <div class="col-md-3">
-                                <img src="/img/test/Test-08.png" alt="mujer" id="mujer1">
+                                <img src="img/test/Test-08.png" alt="mujer" id="mujer1">
                             </div>
                             <div class="col-md-9" id="pregunta1">
                                 <div class="container ml-2 my-2">
@@ -77,7 +77,7 @@
                     <div class="col-md-4">
                         <div class="row">
                             <div class="col-md-3">
-                                <img src="/img/test/Test-19.png" alt="mujer" id="mujer1">
+                                <img src="img/test/Test-19.png" alt="mujer" id="mujer1">
                             </div>
                             <div class="col-md-9" id="pregunta1">
                                 <div class="container ml-2 my-2">
@@ -111,7 +111,7 @@
                     <div class="col-md-4">
                         <div class="row">
                             <div class="col-md-3">
-                                <img src="/img/test/Test-09.png" alt="mujer" id="mujer1">
+                                <img src="img/test/Test-09.png" alt="mujer" id="mujer1">
                             </div>
                             <div class="col-md-9" id="pregunta1">
                                 <div class="container ml-2 my-2">
@@ -127,7 +127,7 @@
                     <div class="col-md-4">
                         <div class="row">
                             <div class="col-md-3">
-                                <img src="/img/test/Test-11.png" alt="mujer" id="bolsa-cuestionario-inicio">
+                                <img src="img/test/Test-11.png" alt="mujer" id="bolsa-cuestionario-inicio">
                             </div>
                             <div class="col-md-9" id="pregunta1">
                                 <div class="container ml-2 my-2">
@@ -143,7 +143,7 @@
                     <div class="col-md-4">
                         <div class="row">
                             <div class="col-md-3">
-                                <img src="/img/test/Test-15.png" alt="mujer" id="mujer1">
+                                <img src="img/test/Test-15.png" alt="mujer" id="mujer1">
                             </div>
                             <div class="col-md-9" id="pregunta1">
                                 <div class="container ml-2 my-2">
@@ -179,7 +179,7 @@
                     <div class="col-md-4">
                         <div class="row">
                             <div class="col-md-3">
-                                <img src="/img/test/Test-10.png" alt="mujer" id="bolsa-cuestionario-inicio">
+                                <img src="img/test/Test-10.png" alt="mujer" id="bolsa-cuestionario-inicio">
                             </div>
                             <div class="col-md-9" id="pregunta1">
                                 <div class="container ml-2 my-2">
@@ -195,7 +195,7 @@
                     <div class="col-md-4">
                         <div class="row">
                             <div class="col-md-3">
-                                <img src="/img/test/Test-17.png" alt="mujer" id="mujer1">
+                                <img src="img/test/Test-17.png" alt="mujer" id="mujer1">
                             </div>
                             <div class="col-md-9" id="pregunta1">
                                 <div class="container ml-2 my-2">
@@ -211,7 +211,7 @@
                     <div class="col-md-4">
                         <div class="row">
                             <div class="col-md-3">
-                                <img src="/img/test/Test-18.png" alt="mujer" id="mujer1">
+                                <img src="img/test/Test-18.png" alt="mujer" id="mujer1">
                             </div>
                             <div class="col-md-9" id="pregunta1">
                                 <div class="container ml-2 my-2">
@@ -244,7 +244,7 @@
                     <div class="col-md-4">
                         <div class="row">
                             <div class="col-md-3">
-                                <img src="/img/test/Test-21.png" alt="mujer" id="mujer1">
+                                <img src="img/test/Test-21.png" alt="mujer" id="mujer1">
                             </div>
                             <div class="col-md-9" id="pregunta1">
                                 <div class="container ml-2 my-2">
@@ -260,7 +260,7 @@
                     <div class="col-md-4">
                         <div class="row">
                             <div class="col-md-3">
-                                <img src="/img/test/Test-20.png" alt="mujer" id="mujer1">
+                                <img src="img/test/Test-20.png" alt="mujer" id="mujer1">
                             </div>
                             <div class="col-md-9" id="pregunta1">
                                 <div class="container ml-2 my-2">
@@ -276,7 +276,7 @@
                     <div class="col-md-4">
                         <div class="row">
                             <div class="col-md-3">
-                                <img src="/img/test/Test-16.png" alt="mujer" id="mujer1">
+                                <img src="img/test/Test-16.png" alt="mujer" id="mujer1">
                             </div>
                             <div class="col-md-9" id="pregunta1">
                                 <div class="container ml-2 my-2">
@@ -306,11 +306,11 @@
          <div class="row justify-content-center my-5" v-if="final">
           
             <div class="col-md-6" id="presentacion-cuestionario">
-                <div class="container my-4">
+                <div class="container my-3">
                     <p class="bold text-center" style="font-size:20pt;">Cuestionario de Salud de Goldberg</p>
                     <div class="row">
                         <div class="col-md-3">
-                            <img src="/img/test/Test-03.png" alt="" id="bolsa-cuestionario-inicio">
+                            <img src="img/test/Test-03.png" alt="" id="bolsa-cuestionario-inicio">
                         </div>
                         <div class="col-md-9">
                             <p class="regular mb-5" style="font-size:12pt">
@@ -369,7 +369,7 @@
                 
             </div>
             <div class="col-md-4 text-right">
-                <img src="/img/test/fundacion.png" alt="logo fundacion" id="logo-fundacion" >
+                <img src="img/test/fundacion.png" alt="logo fundacion" id="logo-fundacion" >
             </div>
         </div>
 
