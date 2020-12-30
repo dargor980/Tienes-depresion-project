@@ -2320,6 +2320,30 @@ __webpack_require__.r(__webpack_exports__);
 
       return false;
     },
+
+    /* setValues(ask1, ask2, ask3){
+         if(this.pregunta1===0 || this.pregunta1===1){
+             ask=0;
+         }else{
+             if(this.pregunta1===2 || this.pregunta1===3){
+                 ask=1;
+             }
+         }
+           if(this.pregunta2===0 || this.pregunta2===1){
+             ask=0;
+         }else{
+             if(this.pregunta2===2 || this.pregunta2===3){
+                 ask=1;
+             }
+         }
+           if(this.pregunta3===0 || this.pregunta3===1){
+             ask=0;
+         }else{
+             if(this.pregunta3===2 || this.pregunta3===3){
+                 ask=1;
+             }
+         }
+     }, */
     segundaRonda: function segundaRonda() {
       if (this.respondido()) {
         this.ronda1 = false;
@@ -23552,12 +23576,7 @@ var render = function() {
                                   expression: "respuesta1"
                                 }
                               ],
-                              attrs: {
-                                type: "radio",
-                                name: "respuesta1",
-                                id: "1",
-                                value: "0"
-                              },
+                              attrs: { type: "radio", id: "1", value: "0" },
                               domProps: {
                                 checked: _vm._q(_vm.respuesta1, "0")
                               },
@@ -23587,18 +23606,13 @@ var render = function() {
                                   expression: "respuesta1"
                                 }
                               ],
-                              attrs: {
-                                type: "radio",
-                                name: "respuesta1",
-                                id: "2",
-                                value: "0"
-                              },
+                              attrs: { type: "radio", id: "2", value: "1" },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta1, "0")
+                                checked: _vm._q(_vm.respuesta1, "1")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta1 = "0"
+                                  _vm.respuesta1 = "1"
                                 }
                               }
                             })
@@ -23622,18 +23636,13 @@ var render = function() {
                                   expression: "respuesta1"
                                 }
                               ],
-                              attrs: {
-                                type: "radio",
-                                name: "respuesta1",
-                                id: "3",
-                                value: "1"
-                              },
+                              attrs: { type: "radio", id: "3", value: "2" },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta1, "1")
+                                checked: _vm._q(_vm.respuesta1, "2")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta1 = "1"
+                                  _vm.respuesta1 = "2"
                                 }
                               }
                             })
@@ -23657,18 +23666,13 @@ var render = function() {
                                   expression: "respuesta1"
                                 }
                               ],
-                              attrs: {
-                                type: "radio",
-                                name: "respuesta1",
-                                id: "4",
-                                value: "1"
-                              },
+                              attrs: { type: "radio", id: "4", value: "3" },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta1, "1")
+                                checked: _vm._q(_vm.respuesta1, "3")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta1 = "1"
+                                  _vm.respuesta1 = "3"
                                 }
                               }
                             })
@@ -23719,11 +23723,7 @@ var render = function() {
                                   expression: "respuesta2"
                                 }
                               ],
-                              attrs: {
-                                type: "radio",
-                                name: "respuesta2",
-                                value: "0"
-                              },
+                              attrs: { type: "radio", value: "0" },
                               domProps: {
                                 checked: _vm._q(_vm.respuesta2, "0")
                               },
@@ -23753,17 +23753,13 @@ var render = function() {
                                   expression: "respuesta2"
                                 }
                               ],
-                              attrs: {
-                                type: "radio",
-                                name: "respuesta2",
-                                value: "0"
-                              },
+                              attrs: { type: "radio", value: "1" },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta2, "0")
+                                checked: _vm._q(_vm.respuesta2, "1")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta2 = "0"
+                                  _vm.respuesta2 = "1"
                                 }
                               }
                             })
@@ -23787,17 +23783,13 @@ var render = function() {
                                   expression: "respuesta2"
                                 }
                               ],
-                              attrs: {
-                                type: "radio",
-                                name: "respuesta2",
-                                value: "1"
-                              },
+                              attrs: { type: "radio", value: "2" },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta2, "1")
+                                checked: _vm._q(_vm.respuesta2, "2")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta2 = "1"
+                                  _vm.respuesta2 = "2"
                                 }
                               }
                             })
@@ -23821,17 +23813,13 @@ var render = function() {
                                   expression: "respuesta2"
                                 }
                               ],
-                              attrs: {
-                                type: "radio",
-                                name: "respuesta2",
-                                value: "1"
-                              },
+                              attrs: { type: "radio", value: "3" },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta2, "1")
+                                checked: _vm._q(_vm.respuesta2, "3")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta2 = "1"
+                                  _vm.respuesta2 = "3"
                                 }
                               }
                             })
@@ -23882,11 +23870,7 @@ var render = function() {
                                   expression: "respuesta3"
                                 }
                               ],
-                              attrs: {
-                                type: "radio",
-                                name: "respuesta3",
-                                value: "0"
-                              },
+                              attrs: { type: "radio", value: "0" },
                               domProps: {
                                 checked: _vm._q(_vm.respuesta3, "0")
                               },
@@ -23916,17 +23900,13 @@ var render = function() {
                                   expression: "respuesta3"
                                 }
                               ],
-                              attrs: {
-                                type: "radio",
-                                name: "respuesta3",
-                                value: "0"
-                              },
+                              attrs: { type: "radio", value: "1" },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta3, "0")
+                                checked: _vm._q(_vm.respuesta3, "1")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta3 = "0"
+                                  _vm.respuesta3 = "1"
                                 }
                               }
                             })
@@ -23950,17 +23930,13 @@ var render = function() {
                                   expression: "respuesta3"
                                 }
                               ],
-                              attrs: {
-                                type: "radio",
-                                name: "respuesta3",
-                                value: "1"
-                              },
+                              attrs: { type: "radio", value: "2" },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta3, "1")
+                                checked: _vm._q(_vm.respuesta3, "2")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta3 = "1"
+                                  _vm.respuesta3 = "2"
                                 }
                               }
                             })
@@ -23984,17 +23960,13 @@ var render = function() {
                                   expression: "respuesta3"
                                 }
                               ],
-                              attrs: {
-                                type: "radio",
-                                name: "respuesta3",
-                                value: "1"
-                              },
+                              attrs: { type: "radio", value: "3" },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta3, "1")
+                                checked: _vm._q(_vm.respuesta3, "3")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta3 = "1"
+                                  _vm.respuesta3 = "3"
                                 }
                               }
                             })
@@ -24121,14 +24093,14 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta1",
-                                value: "0"
+                                value: "1"
                               },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta1, "0")
+                                checked: _vm._q(_vm.respuesta1, "1")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta1 = "0"
+                                  _vm.respuesta1 = "1"
                                 }
                               }
                             })
@@ -24155,14 +24127,14 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta1",
-                                value: "1"
+                                value: "2"
                               },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta1, "1")
+                                checked: _vm._q(_vm.respuesta1, "2")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta1 = "1"
+                                  _vm.respuesta1 = "2"
                                 }
                               }
                             })
@@ -24189,14 +24161,14 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta1",
-                                value: "1"
+                                value: "3"
                               },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta1, "1")
+                                checked: _vm._q(_vm.respuesta1, "3")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta1 = "1"
+                                  _vm.respuesta1 = "3"
                                 }
                               }
                             })
@@ -24284,14 +24256,14 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta2",
-                                value: "0"
+                                value: "1"
                               },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta2, "0")
+                                checked: _vm._q(_vm.respuesta2, "1")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta2 = "0"
+                                  _vm.respuesta2 = "1"
                                 }
                               }
                             })
@@ -24318,14 +24290,14 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta2",
-                                value: "1"
+                                value: "2"
                               },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta2, "1")
+                                checked: _vm._q(_vm.respuesta2, "2")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta2 = "1"
+                                  _vm.respuesta2 = "2"
                                 }
                               }
                             })
@@ -24352,14 +24324,14 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta2",
-                                value: "1"
+                                value: "3"
                               },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta2, "1")
+                                checked: _vm._q(_vm.respuesta2, "3")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta2 = "1"
+                                  _vm.respuesta2 = "3"
                                 }
                               }
                             })
@@ -24388,7 +24360,7 @@ var render = function() {
                           },
                           [
                             _vm._v(
-                              "6- Ultimamente, ¿se ha sentido útil para los demás?"
+                              "6- Ha sentido que no puede superar sus dificultades?"
                             )
                           ]
                         ),
@@ -24400,7 +24372,7 @@ var render = function() {
                               "botonCuestionario text-center ml-3 text-white regular"
                           },
                           [
-                            _vm._v("a- Más que de costumbre "),
+                            _vm._v("a- No, en absoluto "),
                             _c("input", {
                               directives: [
                                 {
@@ -24434,41 +24406,7 @@ var render = function() {
                               "botonCuestionario text-center ml-3 text-white regular"
                           },
                           [
-                            _vm._v("b- Igual que de costumbre "),
-                            _c("input", {
-                              directives: [
-                                {
-                                  name: "model",
-                                  rawName: "v-model",
-                                  value: _vm.respuesta3,
-                                  expression: "respuesta3"
-                                }
-                              ],
-                              attrs: {
-                                type: "radio",
-                                name: "respuesta3",
-                                value: "0"
-                              },
-                              domProps: {
-                                checked: _vm._q(_vm.respuesta3, "0")
-                              },
-                              on: {
-                                change: function($event) {
-                                  _vm.respuesta3 = "0"
-                                }
-                              }
-                            })
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "p",
-                          {
-                            staticClass:
-                              "botonCuestionario text-center ml-3 text-white regular"
-                          },
-                          [
-                            _vm._v("c- Menos que de costumbre "),
+                            _vm._v("b- Igual que lo habitual "),
                             _c("input", {
                               directives: [
                                 {
@@ -24502,7 +24440,7 @@ var render = function() {
                               "botonCuestionario text-center ml-3 text-white regular"
                           },
                           [
-                            _vm._v("d- Mucho Menos útil "),
+                            _vm._v("c- Más que lo habitual "),
                             _c("input", {
                               directives: [
                                 {
@@ -24515,14 +24453,48 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta3",
-                                value: "1"
+                                value: "2"
                               },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta3, "1")
+                                checked: _vm._q(_vm.respuesta3, "2")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta3 = "1"
+                                  _vm.respuesta3 = "2"
+                                }
+                              }
+                            })
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          {
+                            staticClass:
+                              "botonCuestionario text-center ml-3 text-white regular"
+                          },
+                          [
+                            _vm._v("d- Mucho más que lo habitual "),
+                            _c("input", {
+                              directives: [
+                                {
+                                  name: "model",
+                                  rawName: "v-model",
+                                  value: _vm.respuesta3,
+                                  expression: "respuesta3"
+                                }
+                              ],
+                              attrs: {
+                                type: "radio",
+                                name: "respuesta3",
+                                value: "3"
+                              },
+                              domProps: {
+                                checked: _vm._q(_vm.respuesta3, "3")
+                              },
+                              on: {
+                                change: function($event) {
+                                  _vm.respuesta3 = "3"
                                 }
                               }
                             })
@@ -24653,14 +24625,14 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta1",
-                                value: "0"
+                                value: "1"
                               },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta1, "0")
+                                checked: _vm._q(_vm.respuesta1, "1")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta1 = "0"
+                                  _vm.respuesta1 = "1"
                                 }
                               }
                             })
@@ -24687,14 +24659,14 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta1",
-                                value: "1"
+                                value: "2"
                               },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta1, "1")
+                                checked: _vm._q(_vm.respuesta1, "2")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta1 = "1"
+                                  _vm.respuesta1 = "2"
                                 }
                               }
                             })
@@ -24721,14 +24693,14 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta1",
-                                value: "1"
+                                value: "3"
                               },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta1, "1")
+                                checked: _vm._q(_vm.respuesta1, "3")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta1 = "1"
+                                  _vm.respuesta1 = "3"
                                 }
                               }
                             })
@@ -24816,14 +24788,14 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta2",
-                                value: "0"
+                                value: "1"
                               },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta2, "0")
+                                checked: _vm._q(_vm.respuesta2, "1")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta2 = "0"
+                                  _vm.respuesta2 = "1"
                                 }
                               }
                             })
@@ -24850,14 +24822,14 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta2",
-                                value: "1"
+                                value: "2"
                               },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta2, "1")
+                                checked: _vm._q(_vm.respuesta2, "2")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta2 = "1"
+                                  _vm.respuesta2 = "2"
                                 }
                               }
                             })
@@ -24884,14 +24856,14 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta2",
-                                value: "1"
+                                value: "3"
                               },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta2, "1")
+                                checked: _vm._q(_vm.respuesta2, "3")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta2 = "1"
+                                  _vm.respuesta2 = "3"
                                 }
                               }
                             })
@@ -24975,14 +24947,14 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta3",
-                                value: "0"
+                                value: "1"
                               },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta3, "0")
+                                checked: _vm._q(_vm.respuesta3, "1")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta3 = "0"
+                                  _vm.respuesta3 = "1"
                                 }
                               }
                             })
@@ -25009,14 +24981,14 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta3",
-                                value: "1"
+                                value: "2"
                               },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta3, "1")
+                                checked: _vm._q(_vm.respuesta3, "2")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta3 = "1"
+                                  _vm.respuesta3 = "2"
                                 }
                               }
                             })
@@ -25043,14 +25015,14 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta3",
-                                value: "1"
+                                value: "3"
                               },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta3, "1")
+                                checked: _vm._q(_vm.respuesta3, "3")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta3 = "1"
+                                  _vm.respuesta3 = "3"
                                 }
                               }
                             })
@@ -25177,14 +25149,14 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta1",
-                                value: "0"
+                                value: "1"
                               },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta1, "0")
+                                checked: _vm._q(_vm.respuesta1, "1")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta1 = "0"
+                                  _vm.respuesta1 = "1"
                                 }
                               }
                             })
@@ -25211,14 +25183,14 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta1",
-                                value: "1"
+                                value: "2"
                               },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta1, "1")
+                                checked: _vm._q(_vm.respuesta1, "2")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta1 = "1"
+                                  _vm.respuesta1 = "2"
                                 }
                               }
                             })
@@ -25245,14 +25217,14 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta1",
-                                value: "1"
+                                value: "3"
                               },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta1, "1")
+                                checked: _vm._q(_vm.respuesta1, "3")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta1 = "1"
+                                  _vm.respuesta1 = "3"
                                 }
                               }
                             })
@@ -25336,14 +25308,14 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta2",
-                                value: "0"
+                                value: "1"
                               },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta2, "0")
+                                checked: _vm._q(_vm.respuesta2, "1")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta2 = "0"
+                                  _vm.respuesta2 = "1"
                                 }
                               }
                             })
@@ -25370,14 +25342,14 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta2",
-                                value: "1"
+                                value: "2"
                               },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta2, "1")
+                                checked: _vm._q(_vm.respuesta2, "2")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta2 = "1"
+                                  _vm.respuesta2 = "2"
                                 }
                               }
                             })
@@ -25404,14 +25376,14 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta2",
-                                value: "1"
+                                value: "3"
                               },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta2, "1")
+                                checked: _vm._q(_vm.respuesta2, "3")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta2 = "1"
+                                  _vm.respuesta2 = "3"
                                 }
                               }
                             })
@@ -25452,7 +25424,7 @@ var render = function() {
                               "botonCuestionario text-center ml-3 text-white regular"
                           },
                           [
-                            _vm._v("a- No, en absoluto "),
+                            _vm._v("a-  Mucho Más que de costumbre  "),
                             _c("input", {
                               directives: [
                                 {
@@ -25486,41 +25458,7 @@ var render = function() {
                               "botonCuestionario text-center ml-3 text-white regular"
                           },
                           [
-                            _vm._v("b- No más que de costumbre "),
-                            _c("input", {
-                              directives: [
-                                {
-                                  name: "model",
-                                  rawName: "v-model",
-                                  value: _vm.respuesta3,
-                                  expression: "respuesta3"
-                                }
-                              ],
-                              attrs: {
-                                type: "radio",
-                                name: "respuesta3",
-                                value: "0"
-                              },
-                              domProps: {
-                                checked: _vm._q(_vm.respuesta3, "0")
-                              },
-                              on: {
-                                change: function($event) {
-                                  _vm.respuesta3 = "0"
-                                }
-                              }
-                            })
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "p",
-                          {
-                            staticClass:
-                              "botonCuestionario text-center ml-3 text-white regular"
-                          },
-                          [
-                            _vm._v("c- Algo más que de costumbre "),
+                            _vm._v("b- Algo más que de costumbre  "),
                             _c("input", {
                               directives: [
                                 {
@@ -25554,7 +25492,7 @@ var render = function() {
                               "botonCuestionario text-center ml-3 text-white regular"
                           },
                           [
-                            _vm._v("d- Mucho Más que de costumbre "),
+                            _vm._v("c- No más que de costumbre "),
                             _c("input", {
                               directives: [
                                 {
@@ -25567,14 +25505,48 @@ var render = function() {
                               attrs: {
                                 type: "radio",
                                 name: "respuesta3",
-                                value: "1"
+                                value: "2"
                               },
                               domProps: {
-                                checked: _vm._q(_vm.respuesta3, "1")
+                                checked: _vm._q(_vm.respuesta3, "2")
                               },
                               on: {
                                 change: function($event) {
-                                  _vm.respuesta3 = "1"
+                                  _vm.respuesta3 = "2"
+                                }
+                              }
+                            })
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "p",
+                          {
+                            staticClass:
+                              "botonCuestionario text-center ml-3 text-white regular"
+                          },
+                          [
+                            _vm._v("d- No, en absoluto"),
+                            _c("input", {
+                              directives: [
+                                {
+                                  name: "model",
+                                  rawName: "v-model",
+                                  value: _vm.respuesta3,
+                                  expression: "respuesta3"
+                                }
+                              ],
+                              attrs: {
+                                type: "radio",
+                                name: "respuesta3",
+                                value: "3"
+                              },
+                              domProps: {
+                                checked: _vm._q(_vm.respuesta3, "3")
+                              },
+                              on: {
+                                change: function($event) {
+                                  _vm.respuesta3 = "3"
                                 }
                               }
                             })
@@ -25669,7 +25641,7 @@ var render = function() {
                         [_vm._v("Diagnóstico")]
                       ),
                       _vm._v(" "),
-                      _vm.puntaje >= 0 && _vm.puntaje <= 4
+                      _vm.puntaje >= 0 && _vm.puntaje <= 12
                         ? _c(
                             "p",
                             {
@@ -25678,13 +25650,13 @@ var render = function() {
                             },
                             [
                               _vm._v(
-                                "\n                            Obtuviste un resultado entre el 00 y 04, lo que significa que, aunque tengas unos\n                            pequeños síntomas de depresión leve, pero aun así, recuerda que esto es un test rápido,\n                            y si tienes dudas puedes comunicarte con un especialista de la Salud Mental.\n                        "
+                                "\n                            Obtuviste un resultado entre el 00 y 12, lo que significa que, aunque tengas unos\n                            pequeños síntomas de depresión leve, pero aun así, recuerda que esto es un test rápido,\n                            y si tienes dudas puedes comunicarte con un especialista de la Salud Mental.\n                        "
                               )
                             ]
                           )
                         : _vm._e(),
                       _vm._v(" "),
-                      _vm.puntaje >= 5 && _vm.puntaje <= 8
+                      _vm.puntaje >= 13 && _vm.puntaje <= 24
                         ? _c(
                             "p",
                             {
@@ -25693,13 +25665,13 @@ var render = function() {
                             },
                             [
                               _vm._v(
-                                "\n                            Obtuviste un resultado entre el 05 y 08, lo que significa que puedes tener algunos síntomas\n                            de una depresión leve, aún así, recuerda que esto es un test rápido y que lo mejor es que \n                            te comuniques con un especialista de la Salud Mental.\n                        "
+                                "\n                            Obtuviste un resultado entre el 13 y 24, lo que significa que puedes tener algunos síntomas\n                            de una depresión leve, aún así, recuerda que esto es un test rápido y que lo mejor es que \n                            te comuniques con un especialista de la Salud Mental.\n                        "
                               )
                             ]
                           )
                         : _vm._e(),
                       _vm._v(" "),
-                      _vm.puntaje >= 9 && _vm.puntaje <= 12
+                      _vm.puntaje >= 25 && _vm.puntaje <= 36
                         ? _c(
                             "p",
                             {
@@ -25708,7 +25680,7 @@ var render = function() {
                             },
                             [
                               _vm._v(
-                                "\n                            Obtuviste un resultado entre 09 y 12, esto significa que puedes estar teniendo varios síntomas de\n                            una depresión y puede ser una grave, aun así, recuerda que esto es un test rápido y que lo mejor es\n                            que te comuniques con un especialista de la Salud Mental.\n                        "
+                                "\n                            Obtuviste un resultado entre 25 y 36, esto significa que puedes estar teniendo varios síntomas de\n                            una depresión y puede ser una grave, aun así, recuerda que esto es un test rápido y que lo mejor es\n                            que te comuniques con un especialista de la Salud Mental.\n                        "
                               )
                             ]
                           )

@@ -50,10 +50,10 @@
                             <div class="col-md-9" id="pregunta1">
                                 <div class="container ml-2 my-2">
                                     <p class="regular text-center" style="font-size:12pt">1- ¿Recientemente, te has podido  concentrar en lo que haces?</p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">a- Mejor que de costumbre <input type="radio" name="respuesta1" id="1" value="0" v-model="respuesta1"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- Igual que de costumbre <input type="radio" name="respuesta1" id="2" value="0" v-model="respuesta1"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Menos que de costumbre <input type="radio" name="respuesta1"  id="3" value="1" v-model="respuesta1"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho Menos que de costumbre <input type="radio" name="respuesta1"  id="4" value="1" v-model="respuesta1"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">a- Mejor que de costumbre <input type="radio"  id="1" value="0" v-model="respuesta1"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- Igual que de costumbre <input type="radio"  id="2" value="1" v-model="respuesta1"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Menos que de costumbre <input type="radio"   id="3" value="2" v-model="respuesta1"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho Menos que de costumbre <input type="radio" id="4" value="3" v-model="respuesta1"></p>
                                 </div>
                             </div>
                         </div>
@@ -66,10 +66,10 @@
                             <div class="col-md-9" id="pregunta1">
                                 <div class="container ml-2 my-2">
                                     <p class="regular text-center" style="font-size:12pt">2- ¿Recientemente, has perdido mucho sueño por preocupaciones?</p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">a- No, en absoluto <input type="radio" name="respuesta2" value="0" v-model="respuesta2"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- No más de lo usual <input type="radio" name="respuesta2" value="0" v-model="respuesta2"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Algo más que lo usual <input type="radio" name="respuesta2" value="1" v-model="respuesta2"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho más que lo usual <input type="radio" name="respuesta2" value="1" v-model="respuesta2"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">a- No, en absoluto <input type="radio"  value="0" v-model="respuesta2"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- No más de lo usual <input type="radio"  value="1" v-model="respuesta2"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Algo más que lo usual <input type="radio" value="2" v-model="respuesta2"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho más que lo usual <input type="radio"  value="3" v-model="respuesta2"></p>
                                 </div>
                             </div>
                         </div>
@@ -82,10 +82,10 @@
                             <div class="col-md-9" id="pregunta1">
                                 <div class="container ml-2 my-2">
                                     <p class="regular text-center" style="font-size:12pt">3- Ultimamente, ¿se ha sentido útil para los demás?</p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">a- Más que de costumbre <input type="radio" name="respuesta3" value="0" v-model="respuesta3"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- Igual que de costumbre <input type="radio" name="respuesta3" value="0" v-model="respuesta3"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Menos que de costumbre <input type="radio" name="respuesta3" value="1" v-model="respuesta3"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho Menos útil <input type="radio" name="respuesta3" value="1" v-model="respuesta3"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">a- Más que de costumbre <input type="radio"  value="0" v-model="respuesta3"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- Igual que de costumbre <input type="radio"  value="1" v-model="respuesta3"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Menos que de costumbre <input type="radio"  value="2" v-model="respuesta3"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho Menos útil <input type="radio" value="3" v-model="respuesta3"></p>
                                 </div>
                             </div>
                         </div>
@@ -117,9 +117,9 @@
                                 <div class="container ml-2 my-2">
                                     <p class="regular text-center" style="font-size:12pt">4- ¿Te sientes capaz de tomar decisiones?</p>
                                     <p class="botonCuestionario text-center ml-3 text-white regular">a- Mas que lo usual <input type="radio" name="respuesta1" value="0" v-model="respuesta1"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- Igual que lo usual <input type="radio" name="respuesta1" value="0" v-model="respuesta1"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Menos que lo usual <input type="radio" name="respuesta1" value="1" v-model="respuesta1"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho Menos capaz <input type="radio" name="respuesta1" value="1" v-model="respuesta1"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- Igual que lo usual <input type="radio" name="respuesta1" value="1" v-model="respuesta1"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Menos que lo usual <input type="radio" name="respuesta1" value="2" v-model="respuesta1"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho Menos capaz <input type="radio" name="respuesta1" value="3" v-model="respuesta1"></p>
                                 </div>
                             </div>
                         </div>
@@ -133,9 +133,9 @@
                                 <div class="container ml-2 my-2">
                                     <p class="regular text-center" style="font-size:12pt">5- ¿Se ha sentido constantemente bajo tensión?</p>
                                     <p class="botonCuestionario text-center ml-3 text-white regular">a- No, en absoluto <input type="radio" name="respuesta2" value="0" v-model="respuesta2"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- No más de lo usual <input type="radio" name="respuesta2" value="0" v-model="respuesta2"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Algo más que lo usual <input type="radio" name="respuesta2" value="1" v-model="respuesta2"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho más que de costumbre <input type="radio" name="respuesta2" value="1" v-model="respuesta2"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- No más de lo usual <input type="radio" name="respuesta2" value="1" v-model="respuesta2"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Algo más que lo usual <input type="radio" name="respuesta2" value="2" v-model="respuesta2"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho más que de costumbre <input type="radio" name="respuesta2" value="3" v-model="respuesta2"></p>
                                 </div>
                             </div>
                         </div>
@@ -147,11 +147,11 @@
                             </div>
                             <div class="col-md-9" id="pregunta1">
                                 <div class="container ml-2 my-2">
-                                    <p class="regular text-center" style="font-size:12pt">6- Ultimamente, ¿se ha sentido útil para los demás?</p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">a- Más que de costumbre <input type="radio" name="respuesta3" value="0" v-model="respuesta3"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- Igual que de costumbre <input type="radio" name="respuesta3" value="0" v-model="respuesta3"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Menos que de costumbre <input type="radio" name="respuesta3" value="1" v-model="respuesta3"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho Menos útil <input type="radio" name="respuesta3" value="1" v-model="respuesta3"></p>
+                                    <p class="regular text-center" style="font-size:12pt">6- Ha sentido que no puede superar sus dificultades?</p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">a- No, en absoluto <input type="radio" name="respuesta3" value="0" v-model="respuesta3"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- Igual que lo habitual <input type="radio" name="respuesta3" value="1" v-model="respuesta3"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Más que lo habitual <input type="radio" name="respuesta3" value="2" v-model="respuesta3"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho más que lo habitual <input type="radio" name="respuesta3" value="3" v-model="respuesta3"></p>
                                 </div>
                             </div>
                         </div>
@@ -185,9 +185,9 @@
                                 <div class="container ml-2 my-2">
                                     <p class="regular text-center" style="font-size:12pt">7- ¿Has podido disfrutar de la vida diaria??</p>
                                     <p class="botonCuestionario text-center ml-3 text-white regular">a- Mas que de costumbre <input type="radio" name="respuesta1" value="0" v-model="respuesta1"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- Igual que de costumbre <input type="radio" name="respuesta1" value="0" v-model="respuesta1"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Menos que de costumbre <input type="radio" name="respuesta1" value="1" v-model="respuesta1"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho menos <input type="radio" name="respuesta1" value="1" v-model="respuesta1"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- Igual que de costumbre <input type="radio" name="respuesta1" value="1" v-model="respuesta1"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Menos que de costumbre <input type="radio" name="respuesta1" value="2" v-model="respuesta1"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho menos <input type="radio" name="respuesta1" value="3" v-model="respuesta1"></p>
                                 </div>
                             </div>
                         </div>
@@ -201,9 +201,9 @@
                                 <div class="container ml-2 my-2">
                                     <p class="regular text-center" style="font-size:12pt">8- ¿Te has sentido capaz de enfrentar los problemas?</p>
                                     <p class="botonCuestionario text-center ml-3 text-white regular">a- Más que lo habitual <input type="radio" name="respuesta2" value="0" v-model="respuesta2"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- Igual que lo habitual <input type="radio" name="respuesta2" value="0" v-model="respuesta2"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Menos capaz que lo habitual <input type="radio" name="respuesta2" value="1" v-model="respuesta2"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho menos capaz <input type="radio" name="respuesta2" value="1" v-model="respuesta2"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- Igual que lo habitual <input type="radio" name="respuesta2" value="1" v-model="respuesta2"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Menos capaz que lo habitual <input type="radio" name="respuesta2" value="2" v-model="respuesta2"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho menos capaz <input type="radio" name="respuesta2" value="3" v-model="respuesta2"></p>
                                 </div>
                             </div>
                         </div>
@@ -217,9 +217,9 @@
                                 <div class="container ml-2 my-2">
                                     <p class="regular text-center" style="font-size:12pt">9- ¿Te has sentido triste o deprimido?</p>
                                     <p class="botonCuestionario text-center ml-3 text-white regular">a- No, en absoluto <input type="radio" name="respuesta3" value="0" v-model="respuesta3"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- No más que de costumbre <input type="radio" name="respuesta3" value="0" v-model="respuesta3"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Algo más que de costumbre <input type="radio" name="respuesta3" value="1" v-model="respuesta3"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho Más que de costumbre <input type="radio" name="respuesta3" value="1" v-model="respuesta3"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- No más que de costumbre <input type="radio" name="respuesta3" value="1" v-model="respuesta3"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Algo más que de costumbre <input type="radio" name="respuesta3" value="2" v-model="respuesta3"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho Más que de costumbre <input type="radio" name="respuesta3" value="3" v-model="respuesta3"></p>
                                 </div>
                             </div>
                         </div>
@@ -250,9 +250,9 @@
                                 <div class="container ml-2 my-2">
                                     <p class="regular text-center" style="font-size:12pt">10- ¿Has perdido confianza en ti mismo?</p>
                                     <p class="botonCuestionario text-center ml-3 text-white regular">a- No, en absoluto <input type="radio" name="respuesta1" value="0" v-model="respuesta1"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- No más que de costumbre <input type="radio" name="respuesta1" value="0" v-model="respuesta1"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Algo más que de costumbre <input type="radio" name="respuesta1" value="1" v-model="respuesta1"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho más que de costumbre <input type="radio" name="respuesta1" value="1" v-model="respuesta1"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- No más que de costumbre <input type="radio" name="respuesta1" value="1" v-model="respuesta1"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Algo más que de costumbre <input type="radio" name="respuesta1" value="2" v-model="respuesta1"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho más que de costumbre <input type="radio" name="respuesta1" value="3" v-model="respuesta1"></p>
                                 </div>
                             </div>
                         </div>
@@ -266,9 +266,9 @@
                                 <div class="container ml-2 my-2">
                                     <p class="regular text-center" style="font-size:12pt">11- ¿Te has sentido que no vales nada?</p>
                                     <p class="botonCuestionario text-center ml-3 text-white regular">a- No, en absoluto <input type="radio" name="respuesta2" value="0" v-model="respuesta2"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- No más que lo habitual <input type="radio" name="respuesta2" value="0" v-model="respuesta2"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Algo más que lo habitual <input type="radio" name="respuesta2" value="1" v-model="respuesta2"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho más que lo habitual <input type="radio" name="respuesta2" value="1" v-model="respuesta2"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- No más que lo habitual <input type="radio" name="respuesta2" value="1" v-model="respuesta2"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Algo más que lo habitual <input type="radio" name="respuesta2" value="2" v-model="respuesta2"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho más que lo habitual <input type="radio" name="respuesta2" value="3" v-model="respuesta2"></p>
                                 </div>
                             </div>
                         </div>
@@ -281,12 +281,12 @@
                             <div class="col-md-9" id="pregunta1">
                                 <div class="container ml-2 my-2">
                                     <p class="regular text-center" style="font-size:12pt">12- ¿Te has sentido feliz, considerando todas las cosas?</p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">a- No, en absoluto <input type="radio" name="respuesta3" value="0" v-model="respuesta3"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- No más que de costumbre <input type="radio" name="respuesta3" value="0" v-model="respuesta3"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- Algo más que de costumbre <input type="radio" name="respuesta3" value="1" v-model="respuesta3"></p>
-                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- Mucho Más que de costumbre <input type="radio" name="respuesta3" value="1" v-model="respuesta3"></p>
-                                </div>
-                            </div>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">a-  Mucho Más que de costumbre  <input type="radio" name="respuesta3" value="0" v-model="respuesta3"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">b- Algo más que de costumbre  <input type="radio" name="respuesta3" value="1" v-model="respuesta3"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">c- No más que de costumbre <input type="radio" name="respuesta3" value="2" v-model="respuesta3"></p>
+                                    <p class="botonCuestionario text-center ml-3 text-white regular">d- No, en absoluto<input type="radio" name="respuesta3" value="3" v-model="respuesta3"></p>
+                                </div> 
+                            </div> 
                         </div>
                     </div>
                 </div>
@@ -340,18 +340,18 @@
                     <div class="col-md-9" id="diagnostico">
                         <div class="container mb-3">
                             <p class="bold mb-0 mt-2" style="font-size:20pt;">Diagnóstico</p>
-                            <p class="regular" style="font-size:12pt" v-if="puntaje>=0 && puntaje <=4">
-                                Obtuviste un resultado entre el 00 y 04, lo que significa que, aunque tengas unos
+                            <p class="regular" style="font-size:12pt" v-if="puntaje>=0 && puntaje <=12">
+                                Obtuviste un resultado entre el 00 y 12, lo que significa que, aunque tengas unos
                                 pequeños síntomas de depresión leve, pero aun así, recuerda que esto es un test rápido,
                                 y si tienes dudas puedes comunicarte con un especialista de la Salud Mental.
                             </p>
-                             <p class="regular" style="font-size:12pt" v-if="puntaje>=5 && puntaje <=8">
-                                Obtuviste un resultado entre el 05 y 08, lo que significa que puedes tener algunos síntomas
+                             <p class="regular" style="font-size:12pt" v-if="puntaje>=13 && puntaje <=24">
+                                Obtuviste un resultado entre el 13 y 24, lo que significa que puedes tener algunos síntomas
                                 de una depresión leve, aún así, recuerda que esto es un test rápido y que lo mejor es que 
                                 te comuniques con un especialista de la Salud Mental.
                             </p>
-                            <p class="regular" style="font-size:12pt" v-if="puntaje>=9 && puntaje <=12">
-                                Obtuviste un resultado entre 09 y 12, esto significa que puedes estar teniendo varios síntomas de
+                            <p class="regular" style="font-size:12pt" v-if="puntaje>=25 && puntaje <=36">
+                                Obtuviste un resultado entre 25 y 36, esto significa que puedes estar teniendo varios síntomas de
                                 una depresión y puede ser una grave, aun así, recuerda que esto es un test rápido y que lo mejor es
                                 que te comuniques con un especialista de la Salud Mental.
                             </p>
@@ -422,6 +422,32 @@ export default {
            }
            return false;
        },
+
+      /* setValues(ask1, ask2, ask3){
+           if(this.pregunta1===0 || this.pregunta1===1){
+               ask=0;
+           }else{
+               if(this.pregunta1===2 || this.pregunta1===3){
+                   ask=1;
+               }
+           }
+
+           if(this.pregunta2===0 || this.pregunta2===1){
+               ask=0;
+           }else{
+               if(this.pregunta2===2 || this.pregunta2===3){
+                   ask=1;
+               }
+           }
+
+           if(this.pregunta3===0 || this.pregunta3===1){
+               ask=0;
+           }else{
+               if(this.pregunta3===2 || this.pregunta3===3){
+                   ask=1;
+               }
+           }
+       }, */
 
        segundaRonda(){
            if(this.respondido())
