@@ -93,7 +93,7 @@ body{
 
 #fundacion-salud-mental{
     background-image: url('../img/proyecto/Sin\ título-2-02.png');
-    background-size: 370px 245px;
+    background-size: 370px 255px;
     background-repeat: no-repeat;
 }
 
@@ -137,6 +137,12 @@ body{
 #imagen-proyecto{
     width: 240px;
     height: 190px;
+}
+
+#game-download{
+    background-image: url('../img/proyecto/Cuadro.png');
+    background-repeat: no-repeat;
+    background-size: 750px 265px;
 }
 
 @media (min-width:991px){

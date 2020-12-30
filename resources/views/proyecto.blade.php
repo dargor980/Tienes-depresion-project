@@ -132,6 +132,26 @@
         </div>
 
         <div class="row my-5">
+            <div class="col-md-2"></div>
+            <div class="col-md-8" id="game-download">
+                <div class="container">
+                    <p class="bold text-center mb-0 mt-3" style="font-size: 20pt;">Instrucciones de descarga</p>
+                    <p class="regular">
+                        Después de la descarga del videojuego, tiene que extraer la carpeta .zip
+                        Se creará una carpeta con el nombre del archivo .zip.
+                        Dentro de esta carpeta se encontrarán varios archivos
+                        El archivo del juego es "TienesDepresion2.exe"
+                        Vive la experiencia del juego y escoge tus decisiones!
+                    </p>
+                    <div class="container text-center my-5">
+                        <a href="https://drive.google.com/file/d/1JtcNsUHCJ8l8iGhALQRe52OfTCXOhAOi/view"><button class="boton text-white"><span><img src="img/proyecto/windows_logo.png" alt="windows" style="width: 30px; heigth:30px;"></span>&nbsp;&nbsp;Descargar para Windows</button></a>
+                        <a href="https://drive.google.com/file/d/1G_A7Med79y7zWN2ipWqr5JQekMbgi2Ry/view"><button class="boton text-white"><span><img src="img/proyecto/mac_logo.png" alt="Mac" style="width: 30px; heigth:30px;"></span>&nbsp;&nbsp; Descargar para Mac</button></a>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row my-5">
             <div class="col-md-3 text-center">
                 <img src="img/proyecto/Sin-título-2-07.png" alt="mujer" id="mujer3">
             </div>
